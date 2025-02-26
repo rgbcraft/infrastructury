@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "infrastructury:block/cartello_piena_linea",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "infrastructury:block/cartello_piena_linea",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "infrastructury:block/cartello_piena_linea"
+    },
+    "facing=west": {
+      "model": "infrastructury:block/cartello_piena_linea",
+      "y": 90
+    }
+  }
+}

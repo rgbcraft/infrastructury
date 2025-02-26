@@ -20,7 +20,6 @@ public class InfrastructuryBlockStateProvider extends BlockStateProvider
     private String getBlockName(RegistryObject<Block> block) {
         return block.getId().getPath();
     }
-    
     private void createModelBlockItem(RegistryObject<Block> block, int angleOffset) {
     	ResourceLocation rl = new ResourceLocation(InfrastructuryMain.MODID, "block/" + getBlockName(block));
     	simpleBlockItem(block.get(),
@@ -33,5 +32,6 @@ public class InfrastructuryBlockStateProvider extends BlockStateProvider
     protected void registerStatesAndModels()
     {
     	createModelBlockItem(BlocksInit.CARTELLO_PIENA_LINEA, 0);
+    	createModelBlockItem(BlocksInit.PL_SOA_TAVOLA, 0);
     }
 }

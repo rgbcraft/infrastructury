@@ -1,3 +1,5 @@
-// 1.19.2	2025-02-26T08:33:16.219158229	Block States: infrastructury
+// 1.19.2	2025-02-26T18:19:28.97996848	Block States: infrastructury
 ae4de40147227a4fdfbc399160e2c6245e734bef assets/infrastructury/blockstates/cartello_piena_linea.json
+05ac94edf5823575d6a3bff204e193bd1a164c29 assets/infrastructury/blockstates/pl_soa_tavola.json
 688837d8dbea1e3cd77224d4ffc026273c80b37c assets/infrastructury/models/item/cartello_piena_linea.json
+c61539cc03b4635fe190bfcb2278213fcd1462ad assets/infrastructury/models/item/pl_soa_tavola.json

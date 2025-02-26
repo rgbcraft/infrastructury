@@ -1,4 +1,5 @@
 {
     "itemGroup.InfrastructuryCreativeTab": "Infrastructury Items",
-	"block.infrastructury.cartello_piena_linea": "«Piena Linea» sign"
+	"block.infrastructury.cartello_piena_linea": "«Piena Linea» sign",
+	"block.infrastructury.pl_soa_tavola": "«PL SOA» distant sign"
 } 

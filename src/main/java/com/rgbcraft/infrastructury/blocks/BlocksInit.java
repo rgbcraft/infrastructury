@@ -3,13 +3,13 @@ package com.rgbcraft.infrastructury.blocks;
 import java.util.function.Supplier;
 
 import com.rgbcraft.infrastructury.InfrastructuryMain;
+import com.rgbcraft.infrastructury.blocks.models.SignPostBlockModel;
 import com.rgbcraft.infrastructury.blocks.models.WallmountBlockModel;
 import com.rgbcraft.infrastructury.utils.InfrastructuryCreativeTab;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -29,6 +29,10 @@ public class BlocksInit {
             () -> new WallmountBlockModel(BlockBehaviour.Properties.of(Material.METAL).
                     requiresCorrectToolForDrops().noOcclusion().noCollission()));
     
+    public static final RegistryObject<Block> PL_SOA_TAVOLA = BLOCKS.register("pl_soa_tavola",
+            () -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+                    requiresCorrectToolForDrops().noOcclusion().noCollission()));
+      
     @SubscribeEvent
     public static void onRegisterItems(final RegisterEvent event) {
         if (event.getRegistryKey().equals(ForgeRegistries.Keys.ITEMS)){

@@ -4,14 +4,11 @@ import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
 import com.rgbcraft.infrastructury.blocks.BlocksInit;
-import com.rgbcraft.infrastructury.datagen.InfrastructuryItemModelProvider;
 import com.rgbcraft.infrastructury.items.ItemsInit;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;

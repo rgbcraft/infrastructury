@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "infrastructury",
+  "key": {
+    "p": {
+      "item": "minecraft:oak_planks"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "v": {
+      "tag": "forge:dyes/purple"
+    },
+    "w": {
+      "tag": "forge:dyes/white"
+    }
+  },
+  "pattern": [
+    " w ",
+    "vpv",
+    " s "
+  ],
+  "result": {
+    "count": 10,
+    "item": "infrastructury:cartello_piena_linea"
+  }
+}

@@ -6,7 +6,7 @@ import net.minecraft.world.item.Items;
 
 public class InfrastructuryCreativeTab extends CreativeModeTab {
 
-    public static final InfrastructuryCreativeTab INFRASTRUCTURY_TAB = new InfrastructuryCreativeTab("InfrastructuryCreativeTab");
+    public static final InfrastructuryCreativeTab INFRASTRUCTURY_TAB = new InfrastructuryCreativeTab("infrastructury_creative_tab");
     
 	public InfrastructuryCreativeTab(String label) {
 		super(label);

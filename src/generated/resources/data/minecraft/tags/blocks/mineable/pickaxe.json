@@ -1,5 +1,18 @@
 {
   "values": [
-    "infrastructury:cartello_piena_linea"
+    "infrastructury:cartello_piena_linea",
+    "infrastructury:tavola_pl_soa",
+    "infrastructury:tavola_1cat_1x",
+    "infrastructury:tavola_1cat_2x",
+    "infrastructury:tavola_1cat_3x",
+    "infrastructury:tavola_1cat_4x",
+    "infrastructury:tavola_2cat_1x",
+    "infrastructury:tavola_2cat_2x",
+    "infrastructury:tavola_2cat_3x",
+    "infrastructury:tavola_2cat_4x",
+    "infrastructury:tavola_avviso_1x",
+    "infrastructury:tavola_avviso_2x",
+    "infrastructury:tavola_avviso_3x",
+    "infrastructury:tavola_avviso_4x"
   ]
 }

@@ -9,6 +9,7 @@ import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.Tags;
@@ -31,8 +32,20 @@ public class InfrastructuryRecipes extends RecipeProvider {
         .define('w', Tags.Items.DYES_WHITE)
         .define('v', Tags.Items.DYES_PURPLE)
         .define('s', Items.STICK)
-        .define('p', Blocks.OAK_PLANKS)
-        .unlockedBy("has_planks", InventoryChangeTrigger.TriggerInstance.hasItems(Blocks.OAK_PLANKS))
+        .define('p', ItemTags.PLANKS)
+        .unlockedBy("has_planks", InventoryChangeTrigger.TriggerInstance.hasItems(Items.STICK))
+        .group("infrastructury")
+        .save(consumer);
+        
+        //Cartello PL SOA (tavola orientamento)
+        ShapedRecipeBuilder.shaped(BlocksInit.TAVOLA_PL_SOA.get(), 8)
+        .pattern("byb")
+        .pattern("yby")
+        .pattern(" s ")
+        .define('b', Tags.Items.DYES_BLACK)
+        .define('y', Tags.Items.DYES_YELLOW)
+        .define('s', Items.STICK)
+        .unlockedBy("has_planks", InventoryChangeTrigger.TriggerInstance.hasItems(Items.STICK))
         .group("infrastructury")
         .save(consumer);
     }

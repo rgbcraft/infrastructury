@@ -1,3 +1,5 @@
-// 1.19.2	2025-02-26T20:12:54.475986404	Recipes
-4013b890bea7595918de0216a6a9217b53190a8b data/infrastructury/advancements/recipes/infrastructury_creative_tab/cartello_piena_linea.json
-a64f4d4d7d693845d725f6180f54e5962962e765 data/infrastructury/recipes/cartello_piena_linea.json
+// 1.19.2	2025-02-26T22:37:26.646763307	Recipes
+80ac1da026e1dff5b1a1adbe396eeb04fbe047a0 data/infrastructury/advancements/recipes/infrastructury_creative_tab/cartello_piena_linea.json
+a220ddd30f1afcf20a4a7455559adb5a1fb6c320 data/infrastructury/advancements/recipes/infrastructury_creative_tab/tavola_pl_soa.json
+c447911fcbe9485292b320f3f8ed6e0a66cbe9b7 data/infrastructury/recipes/cartello_piena_linea.json
+b7ae197b8915998987dfbf32cef140dccb7acc90 data/infrastructury/recipes/tavola_pl_soa.json

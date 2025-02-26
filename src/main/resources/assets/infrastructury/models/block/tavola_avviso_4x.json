@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "infrastructury:block/pl_soa_tavola",
-		"particle": "infrastructury:block/pl_soa_tavola"
+		"0": "infrastructury:block/tavola_avviso_4x",
+		"particle": "infrastructury:block/tavola_avviso_4x"
 	},
 	"elements": [
 		{

@@ -29,10 +29,58 @@ public class BlocksInit {
             () -> new WallmountBlockModel(BlockBehaviour.Properties.of(Material.METAL).
                     requiresCorrectToolForDrops().noOcclusion().noCollission()));
     
-    public static final RegistryObject<Block> PL_SOA_TAVOLA = BLOCKS.register("pl_soa_tavola",
+    public static final RegistryObject<Block> TAVOLA_PL_SOA = BLOCKS.register("tavola_pl_soa",
             () -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
                     requiresCorrectToolForDrops().noOcclusion().noCollission()));
-      
+    
+    public static final RegistryObject<Block> TAVOLA_1CAT_1X = BLOCKS.register("tavola_1cat_1x",
+            () -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+                    requiresCorrectToolForDrops().noOcclusion().noCollission()));
+    
+    public static final RegistryObject<Block> TAVOLA_1CAT_2X = BLOCKS.register("tavola_1cat_2x",
+            () -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+                    requiresCorrectToolForDrops().noOcclusion().noCollission()));
+    
+    public static final RegistryObject<Block> TAVOLA_1CAT_3X = BLOCKS.register("tavola_1cat_3x",
+            () -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+                    requiresCorrectToolForDrops().noOcclusion().noCollission()));
+    
+    public static final RegistryObject<Block> TAVOLA_1CAT_4X = BLOCKS.register("tavola_1cat_4x",
+            () -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+                    requiresCorrectToolForDrops().noOcclusion().noCollission()));
+    
+    public static final RegistryObject<Block> TAVOLA_2CAT_1X = BLOCKS.register("tavola_2cat_1x",
+            () -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+                    requiresCorrectToolForDrops().noOcclusion().noCollission()));
+    
+    public static final RegistryObject<Block> TAVOLA_2CAT_2X = BLOCKS.register("tavola_2cat_2x",
+            () -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+                    requiresCorrectToolForDrops().noOcclusion().noCollission()));
+    
+    public static final RegistryObject<Block> TAVOLA_2CAT_3X = BLOCKS.register("tavola_2cat_3x",
+            () -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+                    requiresCorrectToolForDrops().noOcclusion().noCollission()));
+    
+    public static final RegistryObject<Block> TAVOLA_2CAT_4X = BLOCKS.register("tavola_2cat_4x",
+            () -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+                    requiresCorrectToolForDrops().noOcclusion().noCollission()));
+   
+    public static final RegistryObject<Block> TAVOLA_AVVISO_1X = BLOCKS.register("tavola_avviso_1x",
+            () -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+                    requiresCorrectToolForDrops().noOcclusion().noCollission()));
+    
+    public static final RegistryObject<Block> TAVOLA_AVVISO_2X = BLOCKS.register("tavola_avviso_2x",
+            () -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+                    requiresCorrectToolForDrops().noOcclusion().noCollission()));
+    
+    public static final RegistryObject<Block> TAVOLA_AVVISO_3X = BLOCKS.register("tavola_avviso_3x",
+            () -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+                    requiresCorrectToolForDrops().noOcclusion().noCollission()));
+    
+    public static final RegistryObject<Block> TAVOLA_AVVISO_4X = BLOCKS.register("tavola_avviso_4x",
+            () -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+                    requiresCorrectToolForDrops().noOcclusion().noCollission()));
+    
     @SubscribeEvent
     public static void onRegisterItems(final RegisterEvent event) {
         if (event.getRegistryKey().equals(ForgeRegistries.Keys.ITEMS)){

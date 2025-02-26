@@ -1,5 +1,7 @@
 package com.rgbcraft.infrastructury.utils;
 
+import com.rgbcraft.infrastructury.blocks.BlocksInit;
+
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -15,7 +17,7 @@ public class InfrastructuryCreativeTab extends CreativeModeTab {
 	@Override
 	public ItemStack makeIcon() {
 		// TODO fix icons
-		return new ItemStack(Items.ACACIA_FENCE);
+		return new ItemStack(BlocksInit.CARTELLO_PIENA_LINEA.get());
 	}
 
 }

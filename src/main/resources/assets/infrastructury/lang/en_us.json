@@ -1,5 +1,17 @@
 {
-    "itemGroup.InfrastructuryCreativeTab": "Infrastructury Items",
+    "itemGroup.infrastructury_creative_tab": "Infrastructury Items",
 	"block.infrastructury.cartello_piena_linea": "«Piena Linea» sign",
-	"block.infrastructury.pl_soa_tavola": "«PL SOA» distant sign"
+	"block.infrastructury.tavola_pl_soa": "«PL SOA» distant sign",
+	"block.infrastructury.tavola_1cat_1x": "«1° Cat.» 1st distant sign",
+	"block.infrastructury.tavola_1cat_2x": "«1° Cat.» 2nd distant sign",
+	"block.infrastructury.tavola_1cat_3x": "«1° Cat.» 3rd distant sign",
+	"block.infrastructury.tavola_1cat_4x": "«1° Cat.» 4th distant sign",
+	"block.infrastructury.tavola_2cat_1x": "«2° Cat.» 1st distant sign",
+	"block.infrastructury.tavola_2cat_2x": "«2° Cat.» 2nd distant sign",
+	"block.infrastructury.tavola_2cat_3x": "«2° Cat.» 3rd distant sign",
+	"block.infrastructury.tavola_2cat_4x": "«2° Cat.» 4th distant sign",
+	"block.infrastructury.tavola_avviso_1x": "«Avviso» 1st distant sign",
+	"block.infrastructury.tavola_avviso_2x": "«Avviso» 2nd distant sign",
+	"block.infrastructury.tavola_avviso_3x": "«Avviso» 3rd distant sign",
+	"block.infrastructury.tavola_avviso_4x": "«Avviso» 4th distant sign"
 } 

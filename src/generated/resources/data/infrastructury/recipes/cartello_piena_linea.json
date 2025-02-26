@@ -3,7 +3,7 @@
   "group": "infrastructury",
   "key": {
     "p": {
-      "item": "minecraft:oak_planks"
+      "tag": "minecraft:planks"
     },
     "s": {
       "item": "minecraft:stick"
@@ -21,7 +21,7 @@
     " s "
   ],
   "result": {
-    "count": 10,
+    "count": 16,
     "item": "infrastructury:cartello_piena_linea"
   }
 }

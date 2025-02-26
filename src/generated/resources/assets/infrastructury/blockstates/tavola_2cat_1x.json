@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "infrastructury:block/tavola_2cat_1x",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "infrastructury:block/tavola_2cat_1x",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "infrastructury:block/tavola_2cat_1x"
+    },
+    "facing=west": {
+      "model": "infrastructury:block/tavola_2cat_1x",
+      "y": 90
+    }
+  }
+}

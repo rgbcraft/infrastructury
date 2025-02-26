@@ -32,6 +32,19 @@ public class InfrastructuryBlockStateProvider extends BlockStateProvider
     protected void registerStatesAndModels()
     {
     	createModelBlockItem(BlocksInit.CARTELLO_PIENA_LINEA, 0);
-    	createModelBlockItem(BlocksInit.PL_SOA_TAVOLA, 0);
+    	createModelBlockItem(BlocksInit.TAVOLA_PL_SOA, 0);
+    	createModelBlockItem(BlocksInit.TAVOLA_1CAT_1X, 0);
+    	createModelBlockItem(BlocksInit.TAVOLA_1CAT_2X, 0);
+    	createModelBlockItem(BlocksInit.TAVOLA_1CAT_3X, 0);
+    	createModelBlockItem(BlocksInit.TAVOLA_1CAT_4X, 0);
+    	createModelBlockItem(BlocksInit.TAVOLA_2CAT_1X, 0);
+    	createModelBlockItem(BlocksInit.TAVOLA_2CAT_2X, 0);
+    	createModelBlockItem(BlocksInit.TAVOLA_2CAT_3X, 0);
+    	createModelBlockItem(BlocksInit.TAVOLA_2CAT_4X, 0);
+    	createModelBlockItem(BlocksInit.TAVOLA_AVVISO_1X, 0);
+    	createModelBlockItem(BlocksInit.TAVOLA_AVVISO_2X, 0);
+    	createModelBlockItem(BlocksInit.TAVOLA_AVVISO_3X, 0);
+    	createModelBlockItem(BlocksInit.TAVOLA_AVVISO_4X, 0);
+    	
     }
 }

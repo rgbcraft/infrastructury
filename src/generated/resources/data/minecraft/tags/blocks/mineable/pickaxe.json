@@ -13,6 +13,9 @@
     "infrastructury:tavola_avviso_1x",
     "infrastructury:tavola_avviso_2x",
     "infrastructury:tavola_avviso_3x",
-    "infrastructury:tavola_avviso_4x"
+    "infrastructury:tavola_avviso_4x",
+    "infrastructury:rallentamento",
+    "infrastructury:rallentamento_avviso",
+    "infrastructury:fine_rallentamento"
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "infrastructury",
+  "key": {
+    "b": {
+      "tag": "forge:dyes/black"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "w": {
+      "tag": "forge:dyes/white"
+    }
+  },
+  "pattern": [
+    "wb ",
+    " b ",
+    " s "
+  ],
+  "result": {
+    "count": 4,
+    "item": "infrastructury:tavola_1cat_1x"
+  }
+}

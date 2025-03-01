@@ -13,5 +13,8 @@
 	"block.infrastructury.tavola_avviso_1x": "«Avviso» 1st distant sign",
 	"block.infrastructury.tavola_avviso_2x": "«Avviso» 2nd distant sign",
 	"block.infrastructury.tavola_avviso_3x": "«Avviso» 3rd distant sign",
-	"block.infrastructury.tavola_avviso_4x": "«Avviso» 4th distant sign"
+	"block.infrastructury.tavola_avviso_4x": "«Avviso» 4th distant sign",
+	"block.infrastructury.rallentamento": "Slow order sign (rallentamento)",
+	"block.infrastructury.fine_rallentamento": "End slow order sign (rallentamento)",
+	"block.infrastructury.rallentamento_avviso": "Distant slow order sign (rallentamento)"	
 } 

@@ -45,6 +45,9 @@ public class InfrastructuryBlockStateProvider extends BlockStateProvider
     	createModelBlockItem(BlocksInit.TAVOLA_AVVISO_2X, 0);
     	createModelBlockItem(BlocksInit.TAVOLA_AVVISO_3X, 0);
     	createModelBlockItem(BlocksInit.TAVOLA_AVVISO_4X, 0);
+    	createModelBlockItem(BlocksInit.RALLENTAMENTO, 180);
+    	createModelBlockItem(BlocksInit.RALLENTAMENTO_AVVISO, 180);
+    	createModelBlockItem(BlocksInit.FINE_RALLENTAMENTO, 180);
     	
     }
 }

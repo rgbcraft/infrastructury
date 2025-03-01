@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "infrastructury:block/rallentamento",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "infrastructury:block/rallentamento"
+    },
+    "facing=south": {
+      "model": "infrastructury:block/rallentamento",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "infrastructury:block/rallentamento",
+      "y": 270
+    }
+  }
+}

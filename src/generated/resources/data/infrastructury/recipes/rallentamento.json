@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "infrastructury",
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "y": {
+      "tag": "forge:dyes/yellow"
+    }
+  },
+  "pattern": [
+    "y y",
+    "y y",
+    " s "
+  ],
+  "result": {
+    "count": 4,
+    "item": "infrastructury:rallentamento"
+  }
+}

@@ -81,6 +81,19 @@ public class BlocksInit {
             () -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
                     requiresCorrectToolForDrops().noOcclusion().noCollission()));
     
+    public static final RegistryObject<Block> RALLENTAMENTO = BLOCKS.register("rallentamento",
+    		() -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+    				requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final RegistryObject<Block> RALLENTAMENTO_AVVISO = BLOCKS.register("rallentamento_avviso",
+    		() -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+    				requiresCorrectToolForDrops().noOcclusion()));
+    
+    public static final RegistryObject<Block> FINE_RALLENTAMENTO = BLOCKS.register("fine_rallentamento",
+    		() -> new SignPostBlockModel(BlockBehaviour.Properties.of(Material.METAL).
+    				requiresCorrectToolForDrops().noOcclusion()));
+    
+    
     @SubscribeEvent
     public static void onRegisterItems(final RegisterEvent event) {
         if (event.getRegistryKey().equals(ForgeRegistries.Keys.ITEMS)){
@@ -95,3 +108,4 @@ public class BlocksInit {
     }
 }
 
+ 

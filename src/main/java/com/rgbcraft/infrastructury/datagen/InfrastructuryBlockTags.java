@@ -31,6 +31,9 @@ public class InfrastructuryBlockTags extends BlockTagsProvider {
                 .add(BlocksInit.TAVOLA_AVVISO_2X.get())
                 .add(BlocksInit.TAVOLA_AVVISO_3X.get())
                 .add(BlocksInit.TAVOLA_AVVISO_4X.get())
+                .add(BlocksInit.RALLENTAMENTO.get())
+                .add(BlocksInit.RALLENTAMENTO_AVVISO.get())
+                .add(BlocksInit.FINE_RALLENTAMENTO.get())
                 ;
     }
 
